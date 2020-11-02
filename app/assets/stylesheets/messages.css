@@ -74,20 +74,18 @@
   height: calc(100vh - 100px - 90px);
   background-color: #fafafa;
   padding: 46px 40px 0px;
-  border: 1px solid rgb(0, 255, 76);
 }
 
 .upper-message{
   display: flex;
   align-items: center;
   margin: 10px 0;
-  border: 1px solid red;
+
 }
 .message-name{
   font-size: 16px;
   color: #434A54;
   margin-right: 10px;
-  border: 1px solid rgb(0, 255, 76);
 }
 .message-time{
   font-size: 12px;
@@ -97,7 +95,6 @@
   margin-bottom: 40px;
   font-size: 14px;
   color: #434A54;
-  border: 1px solid red;
 }
 
 .form {
