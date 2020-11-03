@@ -1,6 +1,8 @@
 <div class="side-bar-header">
   <div class="user-name">
-    <%= link_to current_user.name, edit_user_path(current_user) %>
+    <%= link_to edit_user_path(current_user) do %>
+      <%= current_user.name %>
+    <% end %>
   </div>
 
   <div class="create-chat">
@@ -11,9 +13,9 @@
   <% current_user.rooms.each do |room| %>
     <div class="room">
       <div class="room-name">
-        <%= link_to room.name, room_messages_path(room) %>
+         <%= link_to room.name, room_messages_path(room) %>
       </div>
     </div>
   <% end %>
-  </div>
+
 </div>
