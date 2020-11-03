@@ -1,5 +1,6 @@
 .wrapper{
   display: flex;
+  border: 1px solid red;
 }
 .side-bar{
   width: 300px;
