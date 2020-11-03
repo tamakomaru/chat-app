@@ -8,39 +8,7 @@
 </div>
 
 <div class="messages">
-  <div class="message">
-      <div class="upper-message">
-        <div class="message-name">
-          <p>Tom</p>
-        </div>
-        <div class="message-time">
-          <p>2020101010</p>
-        </div>
-      </div>
-
-      <div class="lower-message">
-        <div class="message">
-          <p>おはよう</p>
-        </div>
-      </div>
-  </div>
-
-  <div class="message">
-      <div class="upper-message">
-        <div class="message-name">
-          <p>Tom</p>
-        </div>
-        <div class="message-time">
-          <p>2020101010</p>
-        </div>
-      </div>
-
-      <div class="lower-message">
-        <div class="message">
-          <p>おはよう</p>
-        </div>
-      </div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
  
 
